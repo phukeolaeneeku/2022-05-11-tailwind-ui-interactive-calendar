@@ -106,6 +106,7 @@ export default function Example() {
                 <span className="sr-only">Previous month</span>
                 <ChevronLeftIcon className="w-5 h-5" aria-hidden="true" />
               </button>
+              <div>Today</div>
               <button
                 onClick={nextMonth}
                 type="button"
